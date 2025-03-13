@@ -4,4 +4,4 @@ gem "sinatra"
 gem "rackup"
 gem "puma"
 
-gem "google-protobuf", "= 3.21.12"
+gem "google-protobuf"
