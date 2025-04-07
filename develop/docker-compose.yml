@@ -17,7 +17,6 @@ services:
       - ./prometheus:/etc/prometheus
       - prometheus-data:/prometheus
     command: --web.enable-lifecycle  --config.file=/etc/prometheus/prometheus.yml
-    restart: always
     ports:
       - "9090:9090"
 
